@@ -61,7 +61,7 @@ luc10 = ""
 
 que = {}
 
-SMEX_USERS = [2020051281, 5164309986 , 369548041]
+SMEX_USERS = [5335279822]
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
@@ -340,7 +340,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴄʜʟᴏ ᴀʙʙ 🔥")
+                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴊᴀʀᴀ 🔥")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -367,7 +367,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴄʜʟᴏ ᴀʙʙ 🔥")
+                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴊᴀʀᴀ 🔥")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -466,7 +466,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥💥❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩🔥")
+        await event.edit(f"💥🔥💥❤️✨!\n`{ms}` 𝗺𝘀\n    #𝐑𝐀𝐅𝐓𝐀𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓🔥")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -481,7 +481,7 @@ async def ping(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n wait for 5 min ..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n 𝐓𝐡𝐨𝐝𝐢 𝐃𝐞𝐫 𝐫𝐮𝐤𝐣𝐚 𝐛𝐡𝐚𝐢 ..."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -539,7 +539,7 @@ async def restart(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n🔘ᏢᏆΝᏀ\n🔘ᎡᎬՏͲᎪᎡͲ\n🔘ᎫϴᏆΝ\n🔘ᏞᎬᎪᏙᎬ\n🔘ᏢᎫϴᏆΝ\n🔘fuck\n🔘ᎪᏞᏆᏙᎬ\n🔘ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒  (🔥ᏴᎪᎪᏢ ᎫᏆᏆ ᎪΝᎠ KOKO 🔥) ༒"
+       text = "✨ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 ✨\n\n💥𝐏𝐈𝐍𝐆\n💥𝐑𝐄𝐒𝐓𝐀𝐑𝐓\n💥𝐉𝐎𝐈𝐍\n💥𝐋𝐄𝐀𝐕𝐄\n💥𝐏𝐉𝐎𝐈𝐍\n💥fuck\n💥𝐀𝐋𝐈𝐕𝐄\n💥𝐀𝐃𝐃𝐒𝐔𝐃𝐎\n\n\n      ᏴᎽ ༒  (🔥𝙍𝘼𝙁𝙏𝘼𝙍 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 🔥) ༒"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
